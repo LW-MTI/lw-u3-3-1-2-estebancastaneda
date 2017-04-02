@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>3.1.2 Bootstrap Menú</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <h3>Menú</h3>
+            
+            <ul class="nav nav-tabs">
+                <li class="active"><a data-toggle="tab" href="#principal">Principal</a></li>
+                <li><a data-toggle="tab" href="#perfil">Perfil</a></li>
+                <li><a data-toggle="tab" href="#mensajes">Mensajes</a></li>
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">Más
+                        <span class="caret"></span>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a>Submenú 1</a></li>
+                        <li><a>Submenú 2</a></li>
+                        <li><a>Submenú 3</a></li>
+                    </ul>
+                </li>
+            </ul>
+
+            
+            <div class="tab-content">
+                <div id="principal" class="tab-pane fade in active">
+                    <h3>Bienvenido</h3>
+                    <p>Bootstrap es un framework desarrollado y liberado por Twitter que tiene como objetivo 
+                        facilitar el diseño web. Permite crear de forma sencilla webs de diseño adaptable, es decir, 
+                        que se ajusten a cualquier dispositivo y tamaño de pantalla y siempre se vean igual de bien. 
+                        Es Open Source o código abierto, por lo que lo podemos usar de forma gratuita y sin restricciones.
+                    </p>
+                    <p>Pues porque el resultado gusta a clientes/as y usuarios/as, ni más ni menos. 
+                        A la gran mayoría de personas que nos contratan les preocupa que visitar su web sea 
+                        una experiencia agradable y atractiva, sea desde un ordenador o desde un móvil o tableta. 
+                        Con Bootstrap se consigue esto, además de que la carga de la web sea rápida y que la 
+                        navegación sea fluida e intuitiva. Además, facilita mucho la construcción de una página, 
+                        que siempre viene bien.
+                    </p>
+                </div>
+                
+                <div id="perfil" class="tab-pane fade">
+                    <h3>Perfil</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                        Donec ac turpis at erat viverra blandit facilisis ornare ex. 
+                        Cras pellentesque nulla molestie ex congue laoreet. Morbi 
+                        cursus porta vehicula. Mauris id efficitur sapien. Nulla finibus 
+                        dapibus metus, non ultricies tortor interdum et. Vivamus ac 
+                        scelerisque dui. Duis nulla sapien, lobortis eget tempus id, 
+                        faucibus porttitor lorem. Donec nec purus et ipsum feugiat 
+                        lobortis vel eget nunc.
+                    </p>
+                </div>
+                <div id="mensajes" class="tab-pane fade">
+                    <h3>Mensajes</h3>
+                    <p>Aenean sit amet velit neque. Cras rhoncus vitae lacus in sodales. 
+                        Integer aliquam hendrerit sollicitudin. Phasellus aliquet mi ex, 
+                        ut blandit leo rhoncus id. Phasellus lectus sapien, facilisis at 
+                        ipsum quis, tempus accumsan risus. Quisque condimentum mattis enim, 
+                        et interdum ex. Cras pulvinar facilisis euismod. Quisque dapibus 
+                        ultricies purus, ac scelerisque sapien. Aliquam erat volutpat. Vivamus 
+                        mattis sem iaculis sem porta eleifend.
+                    </p>
+                </div>
+            </div>
+            
+        </div>
+    </body>
+</html>
